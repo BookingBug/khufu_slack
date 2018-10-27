@@ -7,7 +7,7 @@
   "author": "BookingBug",
   "licence": "GPL",
   "tags": "slack",
-  "config": true,
+  "config": false,
   "panels": [  ],
   "objects": [
     "slack_user"
