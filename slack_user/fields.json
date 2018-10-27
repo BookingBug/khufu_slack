@@ -1,0 +1,77 @@
+[
+  {
+    "key": "slack_user_id",
+    "type": "string",
+    "default": false,
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  {
+    "key": "slack_user_name",
+    "type": "string",
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  {
+    "key": "slack_team_id",
+    "type": "string",
+    "default": false,
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  {
+    "key": "slack_team_domain",
+    "type": "string",
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },  
+  {
+    "key": "user_id",
+    "type": "integer",
+    "default": false,
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  {
+    "key": "person_id",
+    "type": "integer",
+    "default": false,
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  {
+    "key": "person_id",
+    "type": "string",
+    "default": false,
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  }
+]

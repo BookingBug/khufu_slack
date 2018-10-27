@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "name": "slackScripts",
+  "description": "Slack Scripts",
+  "platform": "nodejs6.10",
+  "created_at": "2018-10-24",
+  "updated_at": "2018-10-24",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"SlackSetup",
+      "description":"Setup a slack user",
+      "type":"AdminScript",
+      "actions": ["Get"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "slack_setup"
+    },
+    {
+      "name":"SlackCommmand",
+      "description":"Response from a slack command running",
+      "type":"PublicScript",
+      "actions": ["Get"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "slack_command"
+    }
+  ]
+}

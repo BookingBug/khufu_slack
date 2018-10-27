@@ -1,0 +1,20 @@
+{
+  "bbAppManifestVersion":"1.0",
+  "name": "Slack Integration",
+  "unique_name": "slack",
+  "version": "0.1",
+  "description": "A lightwight Slack integration",
+  "author": "BookingBug",
+  "licence": "GPL",
+  "tags": "slack",
+  "config": true,
+  "panels": [  ],
+  "objects": [
+    "slack_user"
+  ],
+  "scripts": [
+    "slack_scripts"
+  ],
+  "liquid": [
+  ]
+}
