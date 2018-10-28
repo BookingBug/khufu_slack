@@ -12,7 +12,7 @@
   "objects": [
     "slack_user"
   ],
-  "scripts": [
+  "script_packs": [
     "slack_scripts"
   ],
   "liquid": [

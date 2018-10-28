@@ -25,6 +25,15 @@
       "log_type": "Tail",
       "enabled": true,
       "handler": "slack_command"
+    },
+    {
+      "name":"CreateBooking",
+      "description":"Response from a slack command running",
+      "type":"Bookings",
+      "actions": ["created"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "create_booking"
     }
   ]
 }
