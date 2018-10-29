@@ -30,7 +30,7 @@
       "name":"CreateBooking",
       "description":"Response from a slack command running",
       "type":"Bookings",
-      "actions": ["created"],
+      "actions": ["after_create"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "create_booking"
@@ -39,7 +39,7 @@
       "name":"UpdateBooking",
       "description":"Response from a slack command running",
       "type":"Bookings",
-      "actions": ["updated"],
+      "actions": ["update"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "create_booking"
