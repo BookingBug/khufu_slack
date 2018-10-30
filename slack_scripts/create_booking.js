@@ -1,8 +1,7 @@
 let https = require('https');
 
-let token = 'x9zShfgXUgInN81ARp7wyHDw';
 let user = 'U0334S6HF';
-let bearer = 'xoxb-3106890589-466095212690-NVV67bsnBTFgMOYXrlZI3xlu';
+let bearer = '';
 
 function get_im_channel(func) {
     const options = {host: 'slack.com', port: 443, path: "/api/im.open", headers: {'Authorization': 'Bearer ' + bearer, 'Content-Type': 'application/json'}, method: 'POST'};

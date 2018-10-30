@@ -1,5 +1,5 @@
 let https = require('https');
-let bearer = 'xoxb-3106890589-466095212690-NVV67bsnBTFgMOYXrlZI3xlu';
+let bearer = '';
 
 
 function slack_command(event, callback) => {
