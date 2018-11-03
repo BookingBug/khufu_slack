@@ -58,15 +58,5 @@
       "admin": ["new","edit", "put","post","list","get","del"],
       "public": []
     }
-  },
-  {
-    "key": "person_id",
-    "type": "string",
-    "required": true,
-    "drops": true,
-    "permissions": {
-      "admin": ["new","edit", "put","post","list","get","del"],
-      "public": []
-    }
   }
 ]
