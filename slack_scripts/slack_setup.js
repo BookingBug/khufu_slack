@@ -1,5 +1,5 @@
 
-function slack_setup(event, callback) => {
+function slack_setup(event, callback) {
 
     console.log(event)
  

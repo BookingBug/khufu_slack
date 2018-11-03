@@ -2,7 +2,7 @@ let https = require('https');
 let bearer = '';
 
 
-function slack_command(event, callback) => {
+function slack_command(event, callback) {
 
     const body = parseBody(event.body);
   

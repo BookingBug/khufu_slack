@@ -23,7 +23,7 @@ function get_im_channel(func) {
 
 
 
-function create_booking(booking, callback) => {
+function create_booking(booking, callback) {
     
     get_im_channel((channel) => {
     
