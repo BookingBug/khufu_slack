@@ -2,7 +2,7 @@
   "version": "0.1",
   "name": "slackScripts",
   "description": "Slack Scripts",
-  "platform": "nodejs6.10",
+  "platform": "nodejs8.10",
   "created_at": "2018-10-24",
   "updated_at": "2018-10-24",
   "enabled": true,
