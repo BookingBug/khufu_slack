@@ -1,1 +1,7 @@
-{}
+{
+  "token":  {
+    "title": "Token",
+    "type": "string"
+  },
+  "required": ["token"]
+}
